@@ -143,7 +143,7 @@
     
     <p>4 Taxi Squad slots</p>
 
-    <p>3 IR slots (Player must be labeled as IR, Out, Doubtful, or Covid in the Sleeper App)</p>
+    <p>3 IR slots (Player must be labeled as IR, Out, Doubtful, or Covid in the Sleeper app)</p>
     
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Waiver Wire</h3>
     <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Wednesdays through Sundays at 3AM EST, with the exception of players whose NFL team has already played their game that week. They will not be eligible for pickup until the following Wednesday.</p>
@@ -160,9 +160,9 @@
 
     
     <h4 bind:this={twoOneOne}>2.1.1 The Committee</h4>
-    <p>The Committee is a group of league members who make decisions such as vetoing trades. However, it is extremely rare for such measures to be taken.</p>
+        <p>The Committee is a group of league members who make decisions such as vetoing trades. However, it is extremely rare for such measures to be taken.</p>
     
-    <p>The Committee currently consists of Drew, Ben, Derek, and Survive. In the event of a 2-2 tie, Dork will be the tiebreaking vote.</p>
+        <p>The Committee currently consists of Drew, Ben, Derek, and Survive. In the event of a 2-2 tie, Dork will be the tiebreaking vote.</p>
     
     <h3 bind:this={twoTwo}>2.2 Trade Deadline</h3>
     <p>We just changed this, and I don't actually remember what we decided the new deadline will be, so I'll have to come back to this later.</p>
