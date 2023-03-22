@@ -1,10 +1,10 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
-    let two, twoOne, twoTwo, twoThree;
+    let one, oneOne, oneTwo;
+    let two, twoOne, twoOneOne, twoTwo;
     let three, threeOne;
-    let four, fourOne, fourTwo;
-    let five, fiveOne;
+    let four, fourOne;
+    let five, fiveOne, fiveTwo, fiveThree;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -100,37 +100,27 @@
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Waiver Wire</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
-    
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
-    
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Trades</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Veto Process</h4>
+                <h5 class="noUnderscore clickable" on:click={() => goToSection(twoOneOne)}>2.1.1 The Committee</h5>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Trade Deadline</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Annual League Meeting</h4>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4> 
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Miscellaneous Rules</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 The True Dynasty Rule</h4>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Postseason</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Playoffs</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 Toilet Bowl</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>5.3 Seeding Tiebreakers</h4>
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1: Rosters</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
@@ -149,112 +139,63 @@
         <li>K</li>
     </ul>
     
-    <p>12 Bench slots.</p>
+    <p>12 Bench slots</p>
     
-    <p>4 Taxi Squad slots.</p>
+    <p>4 Taxi Squad slots</p>
 
-    <p>3 IR slots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>3 IR slots (Player must be labeled as IR, Out, Doubtful, or Covid in the Sleeper App)</p>
     
-        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-        
-        <div class="subBlock">
-            <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">No limit</td></tr>
-                <tr><td>RB</td><td class="right">No limit</td></tr>
-                <tr><td>WR</td><td class="right">No limit</td></tr>
-                <tr><td>TE</td><td class="right">No limit (luckily for me)</td></tr>
-                <tr><td>K</td><td class="right">No need for a limit bc we're not stupid.</td></tr>
-            </table>
-        </div>
+    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Waiver Wire</h3>
+    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Wednesdays through Sundays at 3AM EST, with the exception of players whose NFL team has already played their game that week. They will not be eligible for pickup until the following Wednesday.</p>
 
+    <p>FAAB will reset twice per year: once in January, once in September.</p>
+    
+    <h2 class="sectionHeading" bind:this={two}>Section 2: Trades</h2>
+    <p>Trades may consist of players, draft picks (up to 3 years away), and/or FAAB. Trades will process immediately but may be reversed if necessary.</p>
+    
+    <p>All assets of a trade must be done within the Sleeper app. Real-life assets are prohibited. For example: you may not trade Diontae Johnson for 7 Taco Bell Crunchwraps and a 3rd round pick.</p>
+    
+    <h3 bind:this={twoOne}>2.1 Veto Process</h3>
+    <p>Any member of the league can challenge the fairness of a trade, and the Committee will determine whether or not it should be vetoed.</p>
 
-    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trades may consist of players, draft picks (up to 3 drafts away), and FAAB. Trades will process immediately but may be reversed if the Committee deems it worthy of being vetoed.</p>
+    <h4 bind:this={twoOneOne}>2.1.1 The Committee</h4>
+    <p>The Committee is a group of league members who make decisions such as vetoing trades. However, it is extremely rare for such measures to be taken.</p>
     
-    <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
-    <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-        
-        <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
-        </ul>
+    <p>The Committee currently consists of Drew, Ben, Derek, and Survive. In the event of a 2-2 tie, Dork will be the tiebreaking vote./p>
+    
+    <h3 bind:this={twoTwo}>2.2 Trade Deadline</h3>
+    <p>We just changed this, and I don't actually remember what we decided the new deadline will be, so I'll have to come back to this later.</p>
+    
+    <h2 class="sectionHeading" bind:this={three}>Section 3: Scoring System</h2>
+    <p>The league scoring system breakdown is listed on the Sleeper app (for the most part, it follows typical Half-PPR scoring). The scoring system may be subject to change year-to-year depending on the results of the annual league meeting.</p>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
+    <h3 bind:this={threeOne}>3.1 Annual League Meeting</h3>
+    <p>Every January, we gather as many league members as possible into a Discord call in order to vote on new rules and ammendments that had been proposed over the previous year.</p>
+    
+    <h2 class="sectionHeading" bind:this={four}>Section 4: Miscellaneous Rules</h2>
+    
+    <h3 bind:this={fourOne}>4.1 The True Dynasty Rule</h3>
+    <p>If any team wins 3 consecutive championships, all rosters will be reset, and a new startup draft will take place.</p>
+    
+    <h2 class="sectionHeading" bind:this={five}>Section 5: Postseason</h2>
 
-        <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
+    <h3 bind:this={fiveOne}>5.1 Playoffs</h3>
+    <p>At the end of the regular season, the top 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top 2 teams receive a round 1 bye. Each playoff matchup will only last one week, and the winner will advance. Week 18 will not be used.</p>
+    
+    <h3 bind:this={fiveTwo}>5.2 Toilet Bowl</h3>
+    <p>At the end of the regular season, the BOTTOM 6 teams will make the toilet bowl. The first round of the toilet bowl will commence in week 15. The bottom 2 teams receive a round 1 bye. Each toilet bowl matchup will only last one week, and the LOSER will advance. Week 18 will not be used.</p>
 
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
-    </div>
-
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
-    <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
-    </div>
+    <p>The loser of the toilet bowl championship receives a punishment. The 6 playoff teams think of punishment ideas, but only the champion gets the final say.</p>
     
-    <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
-    <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
-    <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto Process</h4>
-    <div class="subBlock">
-        <p>If a member of the league objects to any trade that has been made, they may bring it up to the Committee. A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-    </div>
-    
-    
-    
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
-    
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
-
-    <p>FAAB budgets will reset each season in January.</p>
-    
-    
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
-    
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
-
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
-    
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
-    
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
-
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
-    
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
-    
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
-    
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <h3 bind:this={fiveThree}>5.3 Seeding Tiebreakers</h3>
+    <p>If two teams finish with the same record, the tiebreakers will go as follows:</p>
 
     <ol>
         <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
+        <li>Points Against</li>
+        <li>Head to Head Record (I think)</li>
+        <li>Probably some best 4-of-7 series on Pokemon Showdown</li>
     </ol>
-
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
-    
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
 
 </div>
