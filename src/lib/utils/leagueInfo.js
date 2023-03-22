@@ -24,7 +24,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "567468371333689344",
       "name": "Ben",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -42,12 +42,12 @@ export const managers = [
       "favoritePlayer": 6955, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Trust the process.",
+      "philosophy": null,
       "tradingScale": 9, // 1 - 10
       "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "457130663779233792",
       "name": "Drew",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
