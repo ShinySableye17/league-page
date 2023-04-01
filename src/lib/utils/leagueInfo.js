@@ -7,10 +7,9 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Is this thing working?</p>
-  <p>If you're reading this, then I guess the answer is yes.</p>
-  <p>Never in my life did I expect to say this, but welcome to the official UPA Fantasy Football website!</p>
-  <p>DISCLAIMER: this is still very much a work-in-progress. I'm new to this whole coding thing, and I'm learning as I go along.</p>
+  <p>DISCLAIMER: this is still very much a work-in-progress. I'm still relatively new to this whole coding thing, and I'm basically learning as I go along. </p>
+  <p>But anyway.</p>
+  <p>Welcome to the official UPA Fantasy Football website. We're a group of friends who met online through Pokemon and have since continued to bond through sports. Some of us have known each other since as early as 2015, and our dynasty league was founded in 2020.</p>
 `;
 
 /*   STEP 3   */
@@ -52,7 +51,7 @@ export const managers = [
       "name": "Drew",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Indiana", // (optional)
-      "bio": "The league commissioner. ",
+      "bio": null,
       "photo": "/managers/Drew.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2008, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -75,7 +74,7 @@ export const managers = [
       "name": "Dork",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "California", // (optional)
-      "bio": "test",
+      "bio": null,
       "photo": "/managers/Dork.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lac", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
