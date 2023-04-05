@@ -166,7 +166,7 @@ export const managers = [
       "name": "Tyler",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Massachusetts", // (optional)
-      "bio": """Your girl don't like me, how long has she been gay?"" - Kanye",
+      "bio": null,
       "photo": "/managers/Tyler.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
