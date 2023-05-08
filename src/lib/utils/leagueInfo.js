@@ -28,7 +28,7 @@ export const managers = [
       "name": "Ben",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maryland", // (optional)
-      "bio": "Hi, that's me.",
+      "bio": "Hi, that's me. I run the website and make annual highlight videos for the league.",
       "photo": "/managers/Ben.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "jax", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
