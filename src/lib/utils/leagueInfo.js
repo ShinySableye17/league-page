@@ -7,9 +7,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>DISCLAIMER: this is still very much a work-in-progress. I'm still relatively new to this whole coding thing, and I'm basically learning as I go along. </p>
+  <p>DISCLAIMER: this is still very much a work-in-progress. Also, there are some glitches, and it may say "X person made a transaction" when it wasn't them. I'm still relatively new to this whole coding thing, and I'm basically learning as I go along.</p>
   <p>But anyway.</p>
   <p>Welcome to the official UPA Fantasy Football website. We're a group of friends who met online through Pokemon and have since continued to bond through sports. Some of us have known each other since as early as 2015, and our dynasty league was founded in 2020.</p>
+  <p>Drew is the commissioner, Ben runs the site and makes annual highlight videos.</p>
 `;
 
 /*   STEP 3   */
