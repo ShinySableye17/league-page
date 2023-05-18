@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the official UPA Fantasy Football website. We're a group of friends who met online through Pokemon and have since continued to bond through sports. Some of us have known each other since as early as 2015, and our dynasty league was founded in 2020.</p>
-     <li>My name is Ben, and I run the site and also make [annual highlight videos](https://youtube.com/playlist?list=PLshnoGu2e9MV5_3pnAszrttY25D4BVNXf).</li>
+     <li>My name is Ben, and I run the site and also make annual highlight videos.</li>
      <li>Drew is the commissioner and is in charge of setting up the league meeting every January.</li>
      <li>"The Committee" consists of the two of us as well as Derek and Survive.</li>
            <li>On the very rare occassions when a controversial issue arises (i.e. alleged collusion), the 4 of us vote on the course of action. In the event of a 2-2 tie, Dork will have the tiebreaking vote.</li>
