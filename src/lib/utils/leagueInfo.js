@@ -9,13 +9,13 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>Welcome to the official UPA Fantasy Football website. We're a group of friends who met online through Pokemon and have since continued to bond through sports. Some of us have known each other since as early as 2015, and our dynasty league was founded in 2020.</p>
      <ul>
-     <li>My name is Ben, and I run the site and also make annual highlight videos.</li>
-     <li>Drew is the commissioner and is in charge of setting up the league meeting every January.</li>
-     <li>"The Committee" consists of the two of us as well as Derek and Survive.</li>
+     <li>My name is **Ben**. I run the site and also make <a href="https://youtube.com/playlist?list=PLshnoGu2e9MV5_3pnAszrttY25D4BVNXf">annual highlight videos.</a></li>
+     <li>**Drew** is the commissioner and is in charge of setting up the league meeting every January.</li>
+     <li>"The Committee" consists of the two of us as well as **Derek** and **Survive**.</li>
      <ul>
-           <li>On the very rare occassions when a controversial issue arises (i.e. alleged collusion), the 4 of us vote on the course of action. In the event of a 2-2 tie, Dork will have the tiebreaking vote.</li>
+           <li>On the very rare occassions when a controversial issue arises (i.e. alleged collusion), the 4 of us discuss and vote on a course of action. In the event of a 2-2 tie, **Dork** will have the tiebreaking vote.</li>
      </ul>
-     <li>and Scrappy is in charge of kicking our asses every year.</li>
+     <li>and **Scrappy** is in charge of kicking our asses every year.</li>
      </ul>
   <p>Disclaimer: I'm still relatively new to coding. This website was built from a template made by Nicholas Melhado, and I'm basically just learning as I'm going along. I intend on making a bunch of miscellaneous tweaks in the future.</p>
 `;
