@@ -17,7 +17,7 @@ export const homepageText = `
      </ul>
      <li>and <a style="color:#1ee331;"><b>Scrappy</b></a> is in charge of kicking our asses every year.</li>
      </ul>
-  <p>If you want to see every roster at once, check out the <a href="https://docs.google.com/spreadsheets/d/1WjV37k6_B8qeKNK0lPYXn7_S7Rtyy8x95TpYslqZRd4/edit?usp=sharing" target="_blank">UPA Fantasy Football spreadsheet.</a></p>
+  <p>If you want to see every roster at once, check out the <a href="https://docs.google.com/spreadsheets/d/1WjV37k6_B8qeKNK0lPYXn7_S7Rtyy8x95TpYslqZRd4/edit?usp=sharing" target="_blank">UPA Fantasy Football doc.</a></p>
   <p>Disclaimer: I'm still relatively new to coding. This website was built from a template made by Nicholas Melhado, and I'm basically just learning as I go along. I intend on making a bunch of miscellaneous tweaks in the future.</p>
 `;
 
