@@ -17,8 +17,23 @@ export const homepageText = `
      </ul>
      <li>and <a style="color:#1ee331;"><b>Scrappy</b></a> is in charge of kicking our asses every year.</li>
      </ul>
+  <p><b><ins>A Brief History of the League</ins></b><br>
+     After the redraft league was a hit in 2019, we started up a dynasty league the following year. Of the 12 guys who drafted on that fateful night of August 9, 2020 -- Drew, Rabz, Eshaan, Derek, Dork, Pure, Ben, Brett, Noah, Survive, Scrappy, and Matt <a href="https://sleeper.com/draft/nfl/560299235773579264" target="_blank">(in that order)</a> -- 9 remain in the league today.
+     <ul>
+          <li><a style="color:#1ee331;"><b>Pure</b></a> was replaced by <a style="color:#1ee331;"><b>Bronson</b></a> after the 2020 season.</li>
+          <li><a style="color:#1ee331;"><b>Brett</b></a> was replaced by <a style="color:#1ee331;"><b>Tyler</b></a> (AKA Retikai) prior to the start of the 2022 season.</li>
+          <li>And as for <a style="color:#1ee331;"><b>Noah</b></a>'s franchise...</li>
+               <ul>
+                    <li>Noah was replaced by <a style="color:#1ee331;"><b>Karm</b></a> after the 2021 season.</li>
+                    <li>Karm was replaced by <a style="color:#1ee331;"><b>Riches</b></a> 3 weeks into the 2022 season.</li>
+                    <li>Riches was replaced by <a style="color:#1ee331;"><b>Jose</b></a> after the 2022 season.</li>
+                         <ul>
+                              <li>It's not even like the team is atrocious; its ownership keeps shifting for unrelated reasons. Hopefully Jose can finally bring this franchise the stability it needs.</li>
+                         </ul>
+               </ul>
+     </ul>
   <p>If you want to see every roster at once, check out the <a href="https://docs.google.com/spreadsheets/d/1WjV37k6_B8qeKNK0lPYXn7_S7Rtyy8x95TpYslqZRd4/edit?usp=sharing" target="_blank">UPA Fantasy Football doc.</a></p>
-  <p>Disclaimer: I'm still relatively new to coding. This website was built from a template made by Nicholas Melhado, and I'm basically just learning as I go along. I intend on making a bunch of miscellaneous tweaks in the future.</p>
+  <p><i>Disclaimer: I'm still relatively new to coding. This website was built from a template made by Nick Melhado, and I'm basically just learning as I go along. I intend on making a bunch of miscellaneous tweaks in the future.</i></p>
 `;
 
 /*   STEP 3   */
