@@ -160,12 +160,11 @@
 
     
     <h4 bind:this={twoOneOne}>2.1.1 The Committee</h4>
-        <p>The Committee is a group of league members who make decisions such as vetoing trades. However, it is extremely rare for such measures to be taken.</p>
-    
-        <p>The Committee currently consists of Drew, Ben, Derek, and Survive. In the event of a 2-2 tie, Dork will be the tiebreaking vote.</p>
+        <p style="margin-left: 2em;">The Committee is a group of league members who make decisions such as vetoing trades. However, it is extremely rare for such measures to be taken.</p>
+        <p style="margin-left: 2em;">The Committee currently consists of Drew, Ben, Derek, and Survive. In the event of a 2-2 tie, Dork will be the tiebreaking vote.</p>
     
     <h3 bind:this={twoTwo}>2.2 Trade Deadline</h3>
-    <p>We just changed this, and I don't actually remember what we decided the new deadline will be, so I'll have to come back to this later.</p>
+    <p>Trades may take place at any time prior to the start of week 14. As soon as that Thursday night game kicks off, no more trades will be allowed until after the season is over and a champion has been crowned.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3: Scoring System</h2>
     <p>The league scoring system breakdown is listed on the Sleeper app (for the most part, it follows typical Half-PPR scoring). The scoring system may be subject to change year-to-year depending on the results of the annual league meeting.</p>
