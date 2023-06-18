@@ -160,8 +160,8 @@
 
     
     <h4 bind:this={twoOneOne}>2.1.1 The Committee</h4>
-        <p style="margin-left: 2em;">The Committee is a group of league members who make decisions such as vetoing trades. However, it is extremely rare for such measures to be taken.</p>
-        <p style="margin-left: 2em;">The Committee currently consists of Drew, Ben, Derek, and Survive. In the event of a 2-2 tie, Dork will be the tiebreaking vote.</p>
+        <p style="margin-left: 2.4em;">The Committee is a group of league members who make decisions such as vetoing trades. However, it is extremely rare for such measures to be taken.</p>
+        <p style="margin-left: 2.4em;">The Committee currently consists of Drew, Ben, Derek, and Survive. In the event of a 2-2 tie, Dork will be the tiebreaking vote.</p>
     
     <h3 bind:this={twoTwo}>2.2 Trade Deadline</h3>
     <p>Trades may take place at any time prior to the start of week 14. As soon as that Thursday night game kicks off, no more trades will be allowed until after the season is over and a champion has been crowned.</p>
@@ -185,7 +185,7 @@
     <h3 bind:this={fiveTwo}>5.2 Toilet Bowl</h3>
     <p>At the end of the regular season, the BOTTOM 6 teams will make the toilet bowl. The first round of the toilet bowl will commence in week 15. The bottom 2 teams receive a round 1 bye. Each toilet bowl matchup will only last one week, and the LOSER will advance. Week 18 will not be used.</p>
 
-    <p>The loser of the toilet bowl championship receives a punishment. The 6 playoff teams think of punishment ideas, but only the champion gets the final say.</p>
+    <p>The loser of the toilet bowl championship receives a punishment. The 6 managers who make playoffs have a separate group chat for brainstorming punishment ideas, but only the champion gets the final say.</p>
     
     <h3 bind:this={fiveThree}>5.3 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record, the tiebreakers will go as follows:</p>
