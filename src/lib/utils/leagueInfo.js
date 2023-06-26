@@ -32,6 +32,58 @@ export const homepageText = `
                          </ul>
                </ul>
      </ul>
+<p><b><ins>One-sentence write-ups of each franchise's history</ins></b><br>
+    <ul>
+      <li><a style="color: #1ee331;"><b>Scrappy</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">10 losses</a> <a style="color: LightGreen;">(75.61%)</a></li>
+        <ul>
+          <li>This dude has won 2 of our 3 championships.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Dork</b></a>: <a style="color: Gold;">26 wins</a> - <a style="color: LightCoral;">15 losses</a> <a style="color: LightGreen;">(63.41%)</a></li>
+        <ul>
+          <li>The only player to finish top 3 every year, Dork has been very successful thus far; however, with how things are currently projected, his team may cool down this season.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Survive</b></a>: <a style="color: Gold;">25 wins</a> - <a style="color: LightCoral;">16 losses</a> <a style="color: LightGreen;">(60.98%)</a></li>
+        <ul>
+          <li>Survive won the championship in 2021 against his will, and now he's a powerhouse.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Drew</b></a>: <a style="color: Gold;">24 wins</a> - <a style="color: LightCoral;">17 losses</a> <a style="color: LightGreen;">(58.54%)</a></li>
+        <ul>
+          <li>Despite having one of the strongest rosters on paper year-in and year-out, Drew surprisingly has yet to make a championship appearance.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">22 wins</a> - <a style="color: LightCoral;">19 losses</a> <a style="color: LightGreen;">(53.66%)</a></li>
+        <ul>
+          <li>After being stuck in the middle of the pack for the first two years, Matt's team netted him a semifinals appearance with a breakout 2022 season; however, he was once again unable to finish the job, and quite frankly, <a href="https://youtu.be/MFc71YxKee0?t=5118" target="_blank">he only has himself to blame</a>.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Rabz</b></a>: <a style="color: Gold;">19 wins</a> - <a style="color: LightCoral;">22 losses</a> <a style="color: LightGreen;">(46.34%)</a></li>
+        <ul>
+          <li>After 3 disappointing seasons, Rabz's team has turned the corner and is in a golden position moving forward, not only having a strong roster for 2023, but for years and years to come.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Brett/Tyler</b></a>: <a style="color: Gold;">19 wins</a> - <a style="color: LightCoral;">22 losses</a> <a style="color: LightGreen;">(46.34%)</a></li>
+        <ul>
+          <li>Brett started the fire by trading most of his draft capital for aging veterans, and Tyler poured on the gasoline by trading away the picks that remained.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Pure/Bronson</b></a>: <a style="color: Gold;">19 wins</a> - <a style="color: LightCoral;">22 losses</a> <a style="color: LightGreen;">(46.34%)</a></li>
+        <ul>
+          <li>Pure left Bronson with a very nice team in addition to the 2nd overall pick following the 2020 season, and after a playoff appearance in 2021, Bronson blew it up and rebuilt it with youth, including 4 top-10 dynasty WRs.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Eshaan</b></a>: <a style="color: Gold;">18 wins</a> - <a style="color: LightCoral;">23 losses</a> <a style="color: LightGreen;">(43.90%)</a></li>
+        <ul>
+          <li>Eshaan bounced back from a very disappointing 2020 season with playoff appearances in both 2021 and 2022, but his team has yet to reach elite status.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">16 wins</a> - <a style="color: LightCoral;">25 losses</a> <a style="color: LightGreen;">(39.02%)</a></li>
+        <ul>
+          <li>Haha yeah so my team was goated in 2020, but then everyone fell off a cliff in 2021, and I blew it up prior to the start of 2022, and things are still looking a bit dicey, but it's okay because I own 33% of the 2024 1st round picks.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Noah/Karm/Riches/Jose</b></a>: <a style="color: Gold;">15 wins</a> - <a style="color: LightCoral;">26 losses</a> <a style="color: LightGreen;">(36.59%)</a></li>
+        <ul>
+          <li>The degree to which Noah's youth-heavy strategy in the startup draft ended up backfiring is kind of unbelievable, but the team still has plenty of promise, it's just that the rebuild process has been a bit of a slow one.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Derek</b></a>: <a style="color: Gold;">12 wins</a> - <a style="color: LightCoral;">29 losses</a> <a style="color: LightGreen;">(29.27%)</a></li>
+        <ul>
+          <li>After 3 years of being towards the bottom of the standings, Derek's team is in excellent shape to turn the corner in 2023, and, just like Rabz, he should be a contender for a long time to come.</li>
+        </ul>
+      </ul>
+      </p>
   <p>If you want to see every roster at once, check out the <a href="https://docs.google.com/spreadsheets/d/1WjV37k6_B8qeKNK0lPYXn7_S7Rtyy8x95TpYslqZRd4/edit?usp=sharing" target="_blank">UPA Fantasy Football doc.</a></p>
   <p><i>Disclaimer: I'm still relatively new to coding. This website was built from a template made by Nick Melhado, and I'm basically just learning as I go along. I intend on making a bunch of miscellaneous tweaks in the future.</i></p>
 `;
