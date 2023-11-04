@@ -32,7 +32,7 @@ export const homepageText = `
                          </ul>
                </ul>
      </ul>
-<p><b><ins>One-sentence write-ups of each franchise's history</ins></b><br>
+<p><b><ins>One-sentence write-ups of each franchise's history (prior to the 2023 season)</ins></b><br>
     <ul>
       <li><a style="color: #1ee331;"><b>Scrappy</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">10 losses</a> <a style="color: LightGreen;">(75.61%)</a></li>
         <ul>
