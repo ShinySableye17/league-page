@@ -7,7 +7,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Welcome to the official UPA Fantasy Football website. We're a group of friends who met online through Pokemon and have since continued to bond through sports. Some of us have known each other since as early as 2015, and our dynasty league was founded in 2020.</p>
+  <p>Welcome to the UPA fantasy football website. We're a group of friends who met online through Pokemon and have since continued to bond through sports. Some of us have known each other since as early as 2015, and our dynasty league was founded in 2020.</p>
      <ul>
      <li>My name is <a style="color:#1ee331;"><b>Ben</b></a>. I run the site and also make <a href="https://youtube.com/playlist?list=PLshnoGu2e9MV5_3pnAszrttY25D4BVNXf" target="_blank">annual highlight videos.</a></li>
      <li><a style="color:#1ee331;"><b>Drew</b></a> is the commissioner and is in charge of setting up the league meeting every January.</li>
@@ -32,55 +32,55 @@ export const homepageText = `
                          </ul>
                </ul>
      </ul>
-<p><b><ins>One-sentence write-ups of each franchise's history (prior to the 2023 season)</ins></b><br>
+<p><b><ins>One-sentence write-ups of each franchise's history</ins></b><br>
     <ul>
-      <li><a style="color: #1ee331;"><b>Scrappy</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">10 losses</a> <a style="color: LightGreen;">(75.61%)</a></li>
+      <li><a style="color: #1ee331;"><b>Scrappy</b></a>: <a style="color: Gold;">39 wins</a> - <a style="color: LightCoral;">16 losses</a> <a style="color: LightGreen;">(70.91%)</a></li>
         <ul>
-          <li>This dude has won 2 of our 3 championships.</li>
+          <li>Our 2-time champion's team rides and dies with the Chiefs; even in a down year in 2023, he was still top 3 in points per game.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Dork</b></a>: <a style="color: Gold;">26 wins</a> - <a style="color: LightCoral;">15 losses</a> <a style="color: LightGreen;">(63.41%)</a></li>
+      <li><a style="color: #1ee331;"><b>Survive</b></a>: <a style="color: Gold;">38 wins</a> - <a style="color: LightCoral;">17 losses</a> <a style="color: LightGreen;">(69.09%)</a></li>
         <ul>
-          <li>The only player to finish top 3 every year, Dork has been very successful thus far; however, with how things are currently projected, his team may cool down this season.</li>
+          <li>Survive's roster is loaded beyond comprehension; bro went 13-1 in the 2023 regular season (and then lost in the championship).</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Survive</b></a>: <a style="color: Gold;">25 wins</a> - <a style="color: LightCoral;">16 losses</a> <a style="color: LightGreen;">(60.98%)</a></li>
+      <li><a style="color: #1ee331;"><b>Drew</b></a>: <a style="color: Gold;">34 wins</a> - <a style="color: LightCoral;">21 losses</a> <a style="color: LightGreen;">(61.82%)</a></li>
         <ul>
-          <li>Survive won the championship in 2021 against his will, and now he's a powerhouse.</li>
+          <li>It only took 4 years, but Drew's stacked team finally didn't choke in the playoffs for once.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Drew</b></a>: <a style="color: Gold;">24 wins</a> - <a style="color: LightCoral;">17 losses</a> <a style="color: LightGreen;">(58.54%)</a></li>
+      <li><a style="color: #1ee331;"><b>Dork</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">24 losses</a> <a style="color: LightGreen;">(56.36%)</a></li>
         <ul>
-          <li>Despite having one of the strongest rosters on paper year-in and year-out, Drew surprisingly has yet to make a championship appearance.</li>
+          <li>All things considered, Dork has had a pretty successful franchise, but he might need a year or two to retool.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">22 wins</a> - <a style="color: LightCoral;">19 losses</a> <a style="color: LightGreen;">(53.66%)</a></li>
+      <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">29 wins</a> - <a style="color: LightCoral;">26 losses</a> <a style="color: LightGreen;">(52.73%)</a></li>
         <ul>
-          <li>After being stuck in the middle of the pack for the first two years, Matt's team netted him a semifinals appearance with a breakout 2022 season; however, he was once again unable to finish the job, and quite frankly, <a href="https://youtu.be/MFc71YxKee0?t=5118" target="_blank">he only has himself to blame</a>.</li>
+          <li>Matt has a solid team with good pieces, but he just seems to be perennially stuck in mediocrity.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Rabz</b></a>: <a style="color: Gold;">19 wins</a> - <a style="color: LightCoral;">22 losses</a> <a style="color: LightGreen;">(46.34%)</a></li>
+      <li><a style="color: #1ee331;"><b>Eshaan</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
         <ul>
-          <li>After 3 disappointing seasons, Rabz's team has turned the corner and is in a golden position moving forward, not only having a strong roster for 2023, but for years and years to come.</li>
+          <li>Eshaan took a leap in 2023, and while his team may not be Survive-caliber, it's still a threat.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Brett/Tyler</b></a>: <a style="color: Gold;">19 wins</a> - <a style="color: LightCoral;">22 losses</a> <a style="color: LightGreen;">(46.34%)</a></li>
+      <li><a style="color: #1ee331;"><b>Brett/Tyler</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
         <ul>
-          <li>Brett started the fire by trading most of his draft capital for aging veterans, and Tyler poured on the gasoline by trading away the picks that remained.</li>
+          <li>Tyler's sitution is a bit dicey, as he has a rebuilding team with minimal draft capital, yet he still managed to compete and even make the playoffs last season.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Pure/Bronson</b></a>: <a style="color: Gold;">19 wins</a> - <a style="color: LightCoral;">22 losses</a> <a style="color: LightGreen;">(46.34%)</a></li>
+      <li><a style="color: #1ee331;"><b>Pure/Bronson</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
         <ul>
-          <li>Pure left Bronson with a very nice team in addition to the 2nd overall pick following the 2020 season, and after a playoff appearance in 2021, Bronson blew it up and rebuilt it with youth, including 4 top-10 dynasty WRs.</li>
+          <li>Players over the age of 25 aren't allowed on Bronson's roster.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Eshaan</b></a>: <a style="color: Gold;">18 wins</a> - <a style="color: LightCoral;">23 losses</a> <a style="color: LightGreen;">(43.90%)</a></li>
+      <li><a style="color: #1ee331;"><b>Rabz</b></a>: <a style="color: Gold;">23 wins</a> - <a style="color: LightCoral;">32 losses</a> <a style="color: LightGreen;">(41.82%)</a></li>
         <ul>
-          <li>Eshaan bounced back from a very disappointing 2020 season with playoff appearances in both 2021 and 2022, but his team has yet to reach elite status.</li>
+          <li>Rabz's team is always great on paper (and it still is), but something always seems to go horribly wrong, and then all of the sudden he'll end up with the 1st overall pick.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">16 wins</a> - <a style="color: LightCoral;">25 losses</a> <a style="color: LightGreen;">(39.02%)</a></li>
+      <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">22 wins</a> - <a style="color: LightCoral;">33 losses</a> <a style="color: LightGreen;">(40.00%)</a></li>
         <ul>
-          <li>Haha yeah so my team was goated in 2020, but then everyone fell off a cliff in 2021, and I blew it up prior to the start of 2022, and things are still looking a bit dicey, but it's okay because I own 33% of the 2024 1st round picks.</li>
+          <li>Haha yeah so my team was goated in 2020, but then everyone fell off a cliff in 2021, and I blew it up prior to the start of 2022, but now things are starting to get back on track again.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Noah/Karm/Riches/Jose</b></a>: <a style="color: Gold;">15 wins</a> - <a style="color: LightCoral;">26 losses</a> <a style="color: LightGreen;">(36.59%)</a></li>
+      <li><a style="color: #1ee331;"><b>Noah/Karm/Riches/Jose</b></a>: <a style="color: Gold;">17 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(30.91%)</a></li>
         <ul>
           <li>The degree to which Noah's youth-heavy strategy in the startup draft ended up backfiring is kind of unbelievable, but the team still has plenty of promise, it's just that the rebuild process has been a bit of a slow one.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Derek</b></a>: <a style="color: Gold;">12 wins</a> - <a style="color: LightCoral;">29 losses</a> <a style="color: LightGreen;">(29.27%)</a></li>
+      <li><a style="color: #1ee331;"><b>Derek</b></a>: <a style="color: Gold;">16 wins</a> - <a style="color: LightCoral;">39 losses</a> <a style="color: LightGreen;">(29.09%)</a></li>
         <ul>
-          <li>After 3 years of being towards the bottom of the standings, Derek's team is in excellent shape to turn the corner in 2023, and, just like Rabz, he should be a contender for a long time to come.</li>
+          <li>It would require a lot more than just one sentence to describe how hard the universe has screwed over Derek's franchise.</li>
         </ul>
       </ul>
       </p>
