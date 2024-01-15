@@ -36,11 +36,11 @@ export const homepageText = `
     <ul>
       <li><a style="color: #1ee331;"><b>Scrappy</b></a>: <a style="color: Gold;">39 wins</a> - <a style="color: LightCoral;">16 losses</a> <a style="color: LightGreen;">(70.91%)</a></li>
         <ul>
-          <li>Our 2-time champion's team rides and dies with the Chiefs; even in a down year in 2023, he was still top 3 in points per game.</li>
+          <li>Our 2-time champion's team rides and dies with the Chiefs, but even in a down year in 2023, he was still top 3 in points per game.</li>
         </ul>
       <li><a style="color: #1ee331;"><b>Survive</b></a>: <a style="color: Gold;">38 wins</a> - <a style="color: LightCoral;">17 losses</a> <a style="color: LightGreen;">(69.09%)</a></li>
         <ul>
-          <li>Survive's roster is loaded beyond comprehension; bro went 13-1 in the 2023 regular season (and then lost in the championship).</li>
+          <li>Survive's roster is loaded beyond comprehension; bro went 13-1 in the 2023 regular season (only to lose in the championship).</li>
         </ul>
       <li><a style="color: #1ee331;"><b>Drew</b></a>: <a style="color: Gold;">34 wins</a> - <a style="color: LightCoral;">21 losses</a> <a style="color: LightGreen;">(61.82%)</a></li>
         <ul>
@@ -48,7 +48,7 @@ export const homepageText = `
         </ul>
       <li><a style="color: #1ee331;"><b>Dork</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">24 losses</a> <a style="color: LightGreen;">(56.36%)</a></li>
         <ul>
-          <li>All things considered, Dork has had a pretty successful franchise, but he might need a year or two to retool.</li>
+          <li>All things considered, Dork has had a pretty successful franchise thus far, but he might need a year or two to retool.</li>
         </ul>
       <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">29 wins</a> - <a style="color: LightCoral;">26 losses</a> <a style="color: LightGreen;">(52.73%)</a></li>
         <ul>
@@ -60,7 +60,7 @@ export const homepageText = `
         </ul>
       <li><a style="color: #1ee331;"><b>Brett/Tyler</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
         <ul>
-          <li>Tyler's sitution is a bit dicey, as he has a rebuilding team with minimal draft capital, yet he still managed to compete and even make the playoffs last season.</li>
+          <li>Tyler's sitution is a bit dicey, as he has a rebuilding team with minimal draft capital, but he still managed to compete and even make the playoffs last season.</li>
         </ul>
       <li><a style="color: #1ee331;"><b>Pure/Bronson</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
         <ul>
@@ -68,7 +68,7 @@ export const homepageText = `
         </ul>
       <li><a style="color: #1ee331;"><b>Rabz</b></a>: <a style="color: Gold;">23 wins</a> - <a style="color: LightCoral;">32 losses</a> <a style="color: LightGreen;">(41.82%)</a></li>
         <ul>
-          <li>Rabz's team is always great on paper (and it still is), but something always seems to go horribly wrong, and then all of the sudden he'll end up with the 1st overall pick.</li>
+          <li>The "Rabz" Cycle: 1.) have a great team on paper, 2.) have it implode in the regular season, 3.) get the 1st overall pick, 4.) be optimistic about the future, 5.) rinse and repeat.</li>
         </ul>
       <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">22 wins</a> - <a style="color: LightCoral;">33 losses</a> <a style="color: LightGreen;">(40.00%)</a></li>
         <ul>
