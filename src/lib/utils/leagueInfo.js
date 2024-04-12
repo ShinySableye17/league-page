@@ -13,7 +13,7 @@ export const homepageText = `
      <li><a style="color:#1ee331;"><b>Drew</b></a> is the commissioner and is in charge of setting up the league meeting every January.</li>
      <li><a style="color:#1ee331;"><b>Derek</b></a> and I have commissioner powers as well, but that's just as a precaution in the event that Drew is busy.</li>
      <ul>
-           <li>For example: suppose a manager were to get bored and propose a trade to one of their leaguemates in which one of them gets an entire roster of players in exchange for pennies. Trades process immediately in our league, so if games were ongoing and if an offer like that were to be accepted for some reason, it would need to be reversed ASAP. If Drew is unavailable, Derek or I could step in in that situation.</li>
+           <li>For example: suppose a manager were to get bored and propose a trade to one of their leaguemates in which one of them gets an entire roster of players in exchange for pennies. Trades process immediately in our league, so if games were ongoing while an offer like that got accepted (for some reason), it would need to be reversed ASAP. If Drew is unavailable, Derek or I could step in in that situation.</li>
            <li>That may sound unrealistic and incredibly stupid, but yeah, it actually happened.</li>
      </ul>
      <li>"The Committee" consists of the three of us as well as <a style="color:#1ee331;"><b>Survive</b></a>.</li>
