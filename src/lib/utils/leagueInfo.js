@@ -11,7 +11,7 @@ export const homepageText = `
      <ul>
      <li>My name is <a style="color:#1ee331;"><b>Ben</b></a>. I run the site and also make <a href="https://youtube.com/playlist?list=PLshnoGu2e9MV5_3pnAszrttY25D4BVNXf" target="_blank">annual highlight videos.</a></li>
      <li><a style="color:#1ee331;"><b>Drew</b></a> is the commissioner and is in charge of setting up the league meeting every January.</li>
-     <li><a style="color:#1ee331;"><b>Derek</b></a> and I have commissioner powers as well, but that's just as a precaution in the event that Drew is busy.</li>
+     <li><a style="color:#1ee331;"><b>Derek</b></a> and I have commissioner powers as well, but that's just as a precaution.</li>
      <ul>
            <li>For example: suppose a manager were to get bored and propose a trade to one of their leaguemates in which one of them gets an entire roster of players in exchange for pennies. Trades process immediately in our league, so if games were ongoing while an offer like that got accepted (for some reason), it would need to be reversed ASAP. If Drew is unavailable, Derek or I could step in in that situation.</li>
            <li>That may sound unrealistic and incredibly stupid, but yeah, it actually happened.</li>
