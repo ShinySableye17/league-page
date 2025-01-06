@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "1048874221033684992"; // your league ID
+export const leagueID = "1180339810401615872"; // your league ID
 export const leagueName = "UPA Dynasty League"; // your league name
 export const dues = null; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -11,16 +11,14 @@ export const homepageText = `
      <ul>
      <li>My name is <a style="color:#1ee331;"><b>Ben</b></a>. I run the site and also make <a href="https://youtube.com/playlist?list=PLshnoGu2e9MV5_3pnAszrttY25D4BVNXf" target="_blank">annual highlight videos.</a></li>
      <li><a style="color:#1ee331;"><b>Drew</b></a> is the commissioner and is in charge of setting up the league meeting every January.</li>
-     <li><a style="color:#1ee331;"><b>Derek</b></a> and I have commissioner powers as well, but that's just as a precaution.</li>
+     <li>I have commissioner powers as well, but that's just as a precaution.</li>
      <ul>
-           <li>For example: suppose a manager were to get bored and propose a trade to one of their leaguemates in which one of them gets an entire roster of players in exchange for pennies. Trades process immediately in our league, so if games were ongoing while an offer like that got accepted (for some reason), it would need to be reversed ASAP. If Drew is unavailable, Derek or I could step in in that situation.</li>
+           <li>For example: suppose a manager were to get bored and propose a trade to one of their leaguemates in which one of them gets an entire roster of players in exchange for pennies. Trades process immediately in our league, so if games were ongoing while an offer like that got accepted (for some reason), it would need to be reversed ASAP. If Drew is unavailable, I could step in in that situation.</li>
            <li>That may sound unrealistic and incredibly stupid, but yeah, it actually happened.</li>
      </ul>
-     <li>"The Committee" consists of the three of us as well as <a style="color:#1ee331;"><b>Survive</b></a>.</li>
+     <li>"The Committee" consists of the two of us as well as <a style="color:#1ee331;"><b>Survive</b></a> and <a style="color:#1ee331;"><b>Dork</b></a>.</li>
      <ul>
-           <li>On the very rare occassions when a controversial issue arises (i.e. alleged collusion), the 4 of us discuss and vote on a course of action. In the event of a 2-2 tie, <a style="color:#1ee331;"><b>Dork</b></a> will have the tiebreaking vote.</li>
-     </ul>
-     <li>and <a style="color:#1ee331;"><b>Scrappy</b></a> is in charge of kicking our asses every year.</li>
+           <li>On the very rare occasions when a controversial issue arises (i.e. alleged collusion), the 4 of us discuss and vote on a course of action.</li>
      </ul>
   <p><b><ins>A Brief History of the League</ins></b><br>
      After the redraft league was a hit in 2019, we started up a dynasty league the following year. Of the 12 guys who drafted on that fateful night of August 9, 2020 -- Drew, Rabz, Eshaan, Derek, Dork, Pure, Ben, Brett, Noah, Survive, Scrappy, and Matt <a href="https://sleeper.com/draft/nfl/560299235773579264" target="_blank">(in that order)</a> -- 9 remain in the league today.
@@ -33,59 +31,59 @@ export const homepageText = `
                     <li>Karm was replaced by <a style="color:#1ee331;"><b>Riches</b></a> 3 weeks into the 2022 season.</li>
                     <li>Riches was replaced by <a style="color:#1ee331;"><b>Jose</b></a> after the 2022 season.</li>
                          <ul>
-                              <li>It's not even like the team is atrocious; its ownership keeps shifting for unrelated reasons. Hopefully Jose can finally bring this franchise the stability it needs.</li>
+                              <li>It's not even like the team is atrocious; its ownership keeps shifting for unrelated reasons. Two years later, and it seems Jose has finally brought this franchise the stability it needed.</li>
                          </ul>
                </ul>
      </ul>
 <p><b><ins>One-sentence write-ups of each franchise's history</ins></b><br>
     <ul>
-      <li><a style="color: #1ee331;"><b>Scrappy</b></a>: <a style="color: Gold;">39 wins</a> - <a style="color: LightCoral;">16 losses</a> <a style="color: LightGreen;">(70.91%)</a></li>
+      <li><a style="color: #1ee331;"><b>Survive</b></a>: <a style="color: Gold;">48 wins</a> - <a style="color: LightCoral;">21 losses</a> <a style="color: LightGreen;">(69.57%)</a></li>
         <ul>
-          <li>Our 2-time champion's team rides and dies with the Chiefs, but even in a down year in 2023, he was still top 3 in points per game.</li>
+          <li>Survive has made 4 consecutive championships and gone 1-3 in those (he blames Justin Jefferson).</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Survive</b></a>: <a style="color: Gold;">38 wins</a> - <a style="color: LightCoral;">17 losses</a> <a style="color: LightGreen;">(69.09%)</a></li>
+      <li><a style="color: #1ee331;"><b>Drew</b></a>: <a style="color: Gold;">47 wins</a> - <a style="color: LightCoral;">22 losses</a> <a style="color: LightGreen;">(68.12%)</a></li>
         <ul>
-          <li>Survive's roster is loaded beyond comprehension; bro went 13-1 in the 2023 regular season (only to lose in the championship).</li>
+          <li>Ah yes, Mr. "I want a power shift" himself, AKA Drew, AKA our commissioner, AKA the guy who no longer wants a power shift because he's won back-to-back championships.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Drew</b></a>: <a style="color: Gold;">34 wins</a> - <a style="color: LightCoral;">21 losses</a> <a style="color: LightGreen;">(61.82%)</a></li>
+      <li><a style="color: #1ee331;"><b>Scrappy</b></a>: <a style="color: Gold;">42 wins</a> - <a style="color: LightCoral;">27 losses</a> <a style="color: LightGreen;">(60.87%)</a></li>
         <ul>
-          <li>It only took 4 years, but Drew's stacked team finally didn't choke in the playoffs for once.</li>
+          <li>Our only other 2-time champion, Scrappy's team was goated for the first 4 years, then everything went wrong for him in 2024.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Dork</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">24 losses</a> <a style="color: LightGreen;">(56.36%)</a></li>
+      <li><a style="color: #1ee331;"><b>Dork</b></a>: <a style="color: Gold;">39 wins</a> - <a style="color: LightCoral;">30 losses</a> <a style="color: LightGreen;">(56.52%)</a></li>
         <ul>
-          <li>All things considered, Dork has had a pretty successful franchise thus far, but he might need a year or two to retool.</li>
+          <li>Dork's team was great for the first few years, then he tried to rebuild... and still somehow kept winning.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">29 wins</a> - <a style="color: LightCoral;">26 losses</a> <a style="color: LightGreen;">(52.73%)</a></li>
-        <ul>
-          <li>Matt has a solid team with good pieces, but he just seems to be perennially stuck in mediocrity.</li>
-        </ul>
-      <li><a style="color: #1ee331;"><b>Eshaan</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
-        <ul>
-          <li>Eshaan took a leap in 2023, and while his team may not be Survive-caliber, it's still a threat.</li>
-        </ul>
-      <li><a style="color: #1ee331;"><b>Brett/Tyler</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
-        <ul>
-          <li>Tyler's sitution is a bit dicey, as he has a rebuilding team with minimal draft capital, but he still managed to compete and even make the playoffs last season.</li>
-        </ul>
-      <li><a style="color: #1ee331;"><b>Pure/Bronson</b></a>: <a style="color: Gold;">27 wins</a> - <a style="color: LightCoral;">28 losses</a> <a style="color: LightGreen;">(49.09%)</a></li>
+      <li><a style="color: #1ee331;"><b>Pure/Bronson</b></a>: <a style="color: Gold;">36 wins</a> - <a style="color: LightCoral;">33 losses</a> <a style="color: LightGreen;">(52.17%)</a></li>
         <ul>
           <li>Players over the age of 25 aren't allowed on Bronson's roster.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Rabz</b></a>: <a style="color: Gold;">23 wins</a> - <a style="color: LightCoral;">32 losses</a> <a style="color: LightGreen;">(41.82%)</a></li>
+      <li><a style="color: #1ee331;"><b>Eshaan</b></a>: <a style="color: Gold;">33 wins</a> - <a style="color: LightCoral;">36 losses</a> <a style="color: LightGreen;">(47.83%)</a></li>
         <ul>
-          <li>The "Rabz" Cycle: 1.) have a great team on paper, 2.) have it implode in the regular season, 3.) get the 1st overall pick, 4.) be optimistic about the future, 5.) rinse and repeat.</li>
+          <li>Eshaan's team has kind of been the epitome of mediocrity; he'll have good seasons, and he'll have bad seasons, but he's usually somewhere in the middle.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">22 wins</a> - <a style="color: LightCoral;">33 losses</a> <a style="color: LightGreen;">(40.00%)</a></li>
+      <li><a style="color: #1ee331;"><b>Rabz</b></a>: <a style="color: Gold;">32 wins</a> - <a style="color: LightCoral;">37 losses</a> <a style="color: LightGreen;">(46.38%)</a></li>
         <ul>
-          <li>Haha yeah so my team was goated in 2020, but then everyone fell off a cliff in 2021, and I blew it up prior to the start of 2022, but now things are starting to get back on track again.</li>
+          <li>Rabz finally lifted his franchise's curse last season by making the playoffs for the first time (despite his team being playoff-caliber for a few years now).</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Noah/Karm/Riches/Jose</b></a>: <a style="color: Gold;">17 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(30.91%)</a></li>
+      <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(44.93%)</a></li>
         <ul>
-          <li>The degree to which Noah's youth-heavy strategy in the startup draft ended up backfiring is kind of unbelievable, but the team still has plenty of promise, it's just that the rebuild process has been a bit of a slow one.</li>
+          <li>Haha yeah so my team was goated in 2020, but then everyone fell off a cliff in 2021, and I blew it up prior to the start of 2022, but now things should be back on track again.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Derek</b></a>: <a style="color: Gold;">16 wins</a> - <a style="color: LightCoral;">39 losses</a> <a style="color: LightGreen;">(29.09%)</a></li>
+      <li><a style="color: #1ee331;"><b>Brett/Tyler</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(44.93%)</a></li>
+        <ul>
+          <li>Tyler's situation is a bit dicey, as he has a rebuilding team with minimal draft capital, but he does have Brandon Aubrey, who has carried him to far more wins than a kicker ever should.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(44.93%)</a></li>
+        <ul>
+          <li>Matt's team was perennially stuck in mediocrity for the first few years, then it absolutely fell off in 2024, but to be fair, injuries are largely to blame.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Derek</b></a>: <a style="color: Gold;">23 wins</a> - <a style="color: LightCoral;">46 losses</a> <a style="color: LightGreen;">(33.33%)</a></li>
         <ul>
           <li>It would require a lot more than just one sentence to describe how hard the universe has screwed over Derek's franchise.</li>
+        </ul>
+      <li><a style="color: #1ee331;"><b>Noah/Karm/Riches/Jose</b></a>: <a style="color: Gold;">21 wins</a> - <a style="color: LightCoral;">48 losses</a> <a style="color: LightGreen;">(30.43%)</a></li>
+        <ul>
+          <li>The degree to which Noah's youth-heavy strategy in the startup draft ended up backfiring is kind of unbelievable, but the team still has plenty of promise, it's just that the rebuild process has been a bit of a slow one.</li>
         </ul>
       </ul>
       </p>
