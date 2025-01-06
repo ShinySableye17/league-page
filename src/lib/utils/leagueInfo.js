@@ -9,16 +9,17 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 export const homepageText = `
   <p>Welcome to the UPA fantasy football website. We're a group of friends who met online through Pokemon and have since continued to bond through sports. Some of us have known each other since as early as 2015, and our dynasty league was founded in 2020.</p>
      <ul>
-     <li>My name is <a style="color:#1ee331;"><b>Ben</b></a>. I run the site and also make <a href="https://youtube.com/playlist?list=PLshnoGu2e9MV5_3pnAszrttY25D4BVNXf" target="_blank">annual highlight videos.</a></li>
-     <li><a style="color:#1ee331;"><b>Drew</b></a> is the commissioner and is in charge of setting up the league meeting every January.</li>
-     <li>I have commissioner powers as well, but that's just as a precaution.</li>
-     <ul>
-           <li>For example: suppose a manager were to get bored and propose a trade to one of their leaguemates in which one of them gets an entire roster of players in exchange for pennies. Trades process immediately in our league, so if games were ongoing while an offer like that got accepted (for some reason), it would need to be reversed ASAP. If Drew is unavailable, I could step in in that situation.</li>
-           <li>That may sound unrealistic and incredibly stupid, but yeah, it actually happened.</li>
-     </ul>
-     <li>"The Committee" consists of the two of us as well as <a style="color:#1ee331;"><b>Survive</b></a> and <a style="color:#1ee331;"><b>Dork</b></a>.</li>
-     <ul>
-           <li>On the very rare occasions when a controversial issue arises (i.e. alleged collusion), the 4 of us discuss and vote on a course of action.</li>
+          <li>My name is <a style="color:#1ee331;"><b>Ben</b></a>. I run the site and also make <a href="https://youtube.com/playlist?list=PLshnoGu2e9MV5_3pnAszrttY25D4BVNXf" target="_blank">annual highlight videos.</a></li>
+          <li><a style="color:#1ee331;"><b>Drew</b></a> is the commissioner and is in charge of setting up the league meeting every January.</li>
+          <li>I have commissioner powers as well, but that's just as a precaution.</li>
+          <ul>
+                <li>For example: suppose a manager were to get bored and propose a trade to one of their leaguemates in which one of them gets an entire roster of players in exchange for pennies. Trades process immediately in our league, so if games were ongoing while an offer like that got accepted (for some reason), it would need to be reversed ASAP. If Drew is unavailable, I could step in in that situation.</li>
+                <li>That may sound unrealistic and incredibly stupid, but yeah, it actually happened.</li>
+          </ul>
+          <li>"The Committee" consists of the two of us as well as <a style="color:#1ee331;"><b>Survive</b></a> and <a style="color:#1ee331;"><b>Dork</b></a>.</li>
+          <ul>
+                <li>On the very rare occasions when a controversial issue arises (i.e. alleged collusion), the 4 of us discuss and vote on a course of action.</li>
+          </ul>
      </ul>
   <p><b><ins>A Brief History of the League</ins></b><br>
      After the redraft league was a hit in 2019, we started up a dynasty league the following year. Of the 12 guys who drafted on that fateful night of August 9, 2020 -- Drew, Rabz, Eshaan, Derek, Dork, Pure, Ben, Brett, Noah, Survive, Scrappy, and Matt <a href="https://sleeper.com/draft/nfl/560299235773579264" target="_blank">(in that order)</a> -- 9 remain in the league today.
