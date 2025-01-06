@@ -65,7 +65,7 @@ export const homepageText = `
         <ul>
           <li>Rabz finally lifted his franchise's curse last season by making the playoffs for the first time (despite his team being playoff-caliber for a few years now).</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(44.93%)</a></li>
+      <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(44.93%)</a></li>
         <ul>
           <li>Haha yeah so my team was goated in 2020, but then everyone fell off a cliff in 2021, and I blew it up prior to the start of 2022, but now things should be back on track again.</li>
         </ul>
@@ -73,7 +73,7 @@ export const homepageText = `
         <ul>
           <li>Tyler's situation is a bit dicey, as he has a rebuilding team with minimal draft capital, but he does have Brandon Aubrey, who has carried him to far more wins than a kicker ever should.</li>
         </ul>
-      <li><a style="color: #1ee331;"><b>Ben</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(44.93%)</a></li>
+      <li><a style="color: #1ee331;"><b>Matt</b></a>: <a style="color: Gold;">31 wins</a> - <a style="color: LightCoral;">38 losses</a> <a style="color: LightGreen;">(44.93%)</a></li>
         <ul>
           <li>Matt's team was perennially stuck in mediocrity for the first few years, then it absolutely fell off in 2024, but to be fair, injuries are largely to blame.</li>
         </ul>
